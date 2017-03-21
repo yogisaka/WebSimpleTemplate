@@ -1,0 +1,422 @@
+/*
+TryZOne.Corp
+css desing by TryZOne.Corp
+all about custom design this template in hire
+if you what to custom the design cutom in hire 
+*/
+
+/*------custom decoration------*/
+
+/*custom-font-family*/
+@font-face{
+	font-family: Cantarell-Regular;
+	src:url(../fonts/Cantarell-Regular.otf);
+}
+@font-face{
+	font-family: Cantarell-Oblique;
+	src:url(../fonts/Cantarell-Oblique.otf);
+}
+@font-face{
+	font-family: Cantarell-BoldOblique;
+	src:url(../fonts/Cantarell-BoldOblique.otf);
+}
+@font-face{
+	font-family: Cantarell-Bold;
+	src:url(../fonts/Cantarell-Bold.otf);
+}
+
+/*custom font family class*/
+.cant-reg{
+	font-family: Cantarell-Regular;
+}
+.cant-obl{
+	font-family: Cantarell-Oblique;
+}
+.cant-boldobl{
+	font-family: Cantarell-BoldOblique;
+}
+.cant-bold{
+	font-family:Bold; 
+}
+
+/*custom flat*/
+.box-btn{
+	border-radius: 0;
+}
+.box-form{
+	border-radius: 0;
+}
+
+/*cutom color*/
+.blue-back{
+	background-color: #4285f4;
+}
+.blue-font{
+	color: #4285f4;
+}
+.black-back{
+	background-color: black;
+}
+.black-font{
+	color: black;
+}
+.white-back{
+	background-color: white;
+}
+.white-font{
+	color: white;
+}
+.yellow-back{
+	background-color: #f4b400;
+}
+.yellow-font{
+	color: #f4b400;
+}
+.grey-back{
+	background-color: #607d8b;
+}
+.grey-font{
+	color: #607d8b;
+}
+.cus-back1{
+	background-color: #1E88E5;
+}
+.cus-font1{
+	color: #1E88E5;
+}
+.cus-back2{
+	background-color: #eee;
+}
+.cus-font2{
+	color: #eee;
+}
+
+/*custom align*/
+.right-font{
+	text-align: right;
+}
+.left-font{
+	text-align: left;
+}
+.center-font{
+	text-align: center;
+}
+
+/*------custom home------*/
+
+/*custom body*/
+body{
+	font-family: Cantarell-Bold;
+}
+
+/*custom navbar*/
+.nav{
+	position: relative;
+	border-radius: 0;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.nav ul li{	
+	margin: auto;
+}
+.nav .open a:focus{
+	background-color: #1E88E5;
+}
+.nav .dropdown-menu {
+	background-color: #1E88E5;
+}
+.nav ul li a:hover{
+	background-color: #1E88E5;
+}
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;	
+}
+.nav ul li ul{
+	padding: 0;
+	margin: 0;
+}
+.nav ul li ul li a:hover{
+	background:#0D47A1;
+	color:white;
+}
+.nav-toggle{
+	color: white;
+}
+
+/*banner*/
+.banner{
+	background-image: url(../images/Waves.jpg);
+	background-size:cover;
+	width:100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	min-height:500px;
+	margin-top: -20px;
+}
+.banner-font{
+	text-align: center;
+	padding-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*product*/
+.product{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 18%;
+}
+.produxt-header{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.product i{
+	font-size: 50px;
+}
+
+/*news*/
+.news{
+	padding-bottom: 13%;
+	padding-top: 2%;
+}
+.news-header{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.news h3{
+	margin-bottom: 30px;
+}
+.news h4{
+	margin-bottom: 20px;
+}
+.news ul li{
+	list-style-type: none;
+	margin-left: -15px;
+	margin-top: -10px;
+}
+
+/*contact*/
+.contact{
+	padding-bottom:80px;
+	padding-top: 40px;
+		
+}
+.contact-grid{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.contact-header{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.contact-title{
+	font-size: 30px;
+}
+.contact-form input{
+	padding-left: 90%;
+}
+.contact-form textarea{
+	padding-bottom: 20%;
+}
+.contact-form div{
+	margin-bottom: 55px;
+}
+.contact-form button{
+	margin-top: 10px;
+	float: right;
+}
+.contact-google-map {
+  margin-top: 1em;
+}
+.contact-google-map iframe {
+	padding: 15px 0;
+	width:100%;
+	min-height: 410px;
+	border: none;
+}
+
+/*custom back to top*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display:none;
+    font-size:70px;
+    color: green;
+}
+
+/*custom footer*/
+footer .cfootet-content{
+  margin-top: 20px;
+  padding-top: 20px;
+}
+footer  .cfooter-content ul li{
+	list-style-type: none;
+	margin-left: -40px;
+}
+footer  .cfooter-content ul li a{
+	color: white;
+	text-decoration: none;
+}
+footer  .cfooter-content ul li a:hover{
+	text-decoration: none;
+	color: black;
+}
+footer .cfooter{
+	padding-top: 25px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #1E88E5;
+	color: white;
+}
+footer .cfooter ul li{
+	list-style-type: none;
+}
+footer .cfooter-social{
+	font-size: 20px;
+}
+footer .cfooter-social a{
+	color: white;
+}
+footer .cfooter-social a:hover{
+	color: #0D47A1;
+}
+
+/*login and regiter page*/
+.cform-logreg{
+	background-image: url(../images/Waves.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	position: absolute;
+	text-align: center;
+	padding-top: 10%;
+}
+.cform-logreg .input-group{
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.cform-logreg a:hover{
+	text-decoration: none;
+}
+.cform-logreg div{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.cform-logreg input{
+	background: transparent;
+	font-size: 16px;
+	font-weight: 400;	
+	border-radius: 0;
+	color: white;
+}
+.cform-logreg input[type=submit]{
+	font-size: 16px;
+	font-weight: 400;	
+	border-radius: 0;
+	background-color: #4CAF50;
+	color: white;
+}
+.cform-logreg form{
+	width: 350px;
+}
+.cform-logreg .input-group-addon{
+	background: transparent;
+	font-size: 16px;
+	font-weight: 400;	
+	border-radius: 0;
+}
+.cform-logreg-header{
+	font-size: 30px;
+	font-family: Cantarell-Regular;	
+}
+.cform-logreg-header:hover{
+	text-decoration: none;
+}
+
+/*blog page*/
+.blog{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.blog h1{
+	font-size: 40px;
+}
+.blog h2{
+	font-size: 20px;
+}
+.blog p{
+	font-size: 15px;
+	padding-bottom: 2px; 
+}
+.blog-auth img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+.blog-comment ul{
+	list-style-type: none;
+	padding: 0;
+}
+.blog-comment img{
+	opacity: 1;
+	border-radius: 0;
+}
+.blog-comment img.avatar {
+	position: relative;
+	float: left;
+	width: 65px;
+	height: 65px;
+}
+.blog-comment .post-comments{
+	border: 1px solid #eee;
+   margin-bottom: 20px;
+   margin-left: 85px;
+   padding: 10px 20px;
+	border-radius: 0;
+}
+.blog-comment .date {
+	font-size: 13px;
+	color: #aaaaaa;
+	padding-bottom: 8px;
+	margin-bottom: 10px !important;
+	border-bottom: 1px solid #eee;
+}
+.blog-comment ul.comments ul{
+	list-style-type: none;
+	padding: 0;
+	margin-left: 85px;
+}
+.blog .form-control{
+	border-radius: 0;
+}
+.blog input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.blog textarea{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 200px;
+}
+.blog input[type=submit]{
+	background-color: #4CAF50;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100px;
+	color: white;
+}
